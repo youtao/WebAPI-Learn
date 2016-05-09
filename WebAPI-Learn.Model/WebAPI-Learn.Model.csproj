@@ -54,9 +54,14 @@
     <Compile Include="Migrations\201605050827314_Init.Designer.cs">
       <DependentUpon>201605050827314_Init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605091031460_Add-Contact.cs" />
+    <Compile Include="Migrations\201605091031460_Add-Contact.Designer.cs">
+      <DependentUpon>201605091031460_Add-Contact.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Article.cs" />
     <Compile Include="Model\ArticleCategory.cs" />
+    <Compile Include="Model\Contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201605050827314_Init.resx">
       <DependentUpon>201605050827314_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605091031460_Add-Contact.resx">
+      <DependentUpon>201605091031460_Add-Contact.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

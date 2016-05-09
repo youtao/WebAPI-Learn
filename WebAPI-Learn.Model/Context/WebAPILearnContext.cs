@@ -11,5 +11,7 @@
         public virtual DbSet<Article> Article { get; set; }
 
         public virtual DbSet<ArticleCategory> ArticleCategory { get; set; }
+
+        public virtual DbSet<Contact> Contact { get; set; }
     }
 }
