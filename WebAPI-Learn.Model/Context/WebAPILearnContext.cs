@@ -1,4 +1,4 @@
-﻿namespace WebAPI_Learn.Model.Context
+﻿namespace WebAPI_Learn.Model
 {
     using System.Data.Entity;
 

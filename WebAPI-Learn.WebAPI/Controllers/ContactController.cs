@@ -1,11 +1,12 @@
 ﻿namespace WebAPI_Learn.WebAPI.Controllers
 {
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Linq;
     using System.Web.Http;
 
-    using WebAPI_Learn.Model.Context;
+    using WebAPI_Learn.Model;
 
     public class ContactController : ApiController
     {

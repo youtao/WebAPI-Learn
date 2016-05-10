@@ -1,4 +1,4 @@
-﻿namespace WebAPI_Learn.Console
+﻿namespace WebAPI_Learn.WebConsole
 {
     using System.Net;
 
