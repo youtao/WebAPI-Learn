@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91B9B82F-3251-4138-9933-150594C00619}</ProjectGuid>
+    <ProjectGuid>{C372DCCA-03EB-48D5-B624-CC7DAB38BC9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebAPI_Learn.API.IISHost.Tests</RootNamespace>
-    <AssemblyName>WebAPI-Learn.API.IISHost.Tests</AssemblyName>
+    <RootNamespace>WebAPI_Learn.WebUI.Tests</RootNamespace>
+    <AssemblyName>WebAPI-Learn.WebUI.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,17 +56,16 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebAPI-Learn.API.IISHost\WebAPI-Learn.API.IISHost.csproj">
-      <Project>{A904DD65-9AF3-485D-ABA4-77FF281FC597}</Project>
-      <Name>WebAPI-Learn.API.IISHost</Name>
+    <ProjectReference Include="..\WebAPI-Learn.WebAPI.WebUI\WebAPI-Learn.WebUI.csproj">
+      <Project>{C44C398F-076A-4D48-8528-1E775BA6AE7F}</Project>
+      <Name>WebAPI-Learn.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

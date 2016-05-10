@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebAPI_Learn.API.IISHost</RootNamespace>
-    <AssemblyName>WebAPI-Learn.API.IISHost</AssemblyName>
+    <RootNamespace>WebAPI_Learn.WebAPI.IISHost</RootNamespace>
+    <AssemblyName>WebAPI-Learn.WebAPI.IISHost</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -109,10 +109,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebAPI-Learn.API\WebAPI-Learn.API.csproj">
-      <Project>{ca1d92b3-6846-4e62-985d-4d7b3b04b8dd}</Project>
-      <Name>WebAPI-Learn.API</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WebAPI-Learn.ModelFactory\WebAPI-Learn.ModelFactory.csproj">
       <Project>{a84ee749-e6fa-410d-862e-fdd1fef613ff}</Project>
       <Name>WebAPI-Learn.ModelFactory</Name>
@@ -120,6 +116,10 @@
     <ProjectReference Include="..\WebAPI-Learn.Model\WebAPI-Learn.Model.csproj">
       <Project>{3e30e68b-adfd-4076-b2a7-db40d731e162}</Project>
       <Name>WebAPI-Learn.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebAPI-Learn.WebAPI\WebAPI-Learn.WebAPI.csproj">
+      <Project>{ca1d92b3-6846-4e62-985d-4d7b3b04b8dd}</Project>
+      <Name>WebAPI-Learn.WebAPI</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

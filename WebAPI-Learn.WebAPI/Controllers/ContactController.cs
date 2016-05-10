@@ -1,4 +1,4 @@
-﻿namespace WebAPI_Learn.API.Controllers
+﻿namespace WebAPI_Learn.WebAPI.Controllers
 {
     using System.Collections.Generic;
     using System.Data.Entity;

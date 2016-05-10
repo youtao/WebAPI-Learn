@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebAPI_Learn.API.WebUI</RootNamespace>
-    <AssemblyName>WebAPI-Learn.API.WebUI</AssemblyName>
+    <RootNamespace>WebAPI_Learn.WebUI</RootNamespace>
+    <AssemblyName>WebAPI-Learn.WebUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -121,6 +121,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPI-Learn.ModelFactory\WebAPI-Learn.ModelFactory.csproj">
+      <Project>{a84ee749-e6fa-410d-862e-fdd1fef613ff}</Project>
+      <Name>WebAPI-Learn.ModelFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebAPI-Learn.Model\WebAPI-Learn.Model.csproj">
+      <Project>{3e30e68b-adfd-4076-b2a7-db40d731e162}</Project>
+      <Name>WebAPI-Learn.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

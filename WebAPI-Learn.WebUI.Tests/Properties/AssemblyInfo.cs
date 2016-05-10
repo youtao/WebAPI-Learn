@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("WebAPI-Learn.API.IISHost.Tests")]
+[assembly: AssemblyTitle("WebAPI-Learn.WebUI.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebAPI-Learn.API.IISHost.Tests")]
+[assembly: AssemblyProduct("WebAPI-Learn.WebUI.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
-[assembly: Guid("91b9b82f-3251-4138-9933-150594c00619")]
+[assembly: Guid("c372dcca-03eb-48d5-b624-cc7dab38bc9a")]
 
 // 程序集的版本信息由下列四个值组成:
 //
